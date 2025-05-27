@@ -1,0 +1,7 @@
+*.sql
+
+congif.py
+
+__pycache__/
+
+ .vscode/
