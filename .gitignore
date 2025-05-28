@@ -4,4 +4,5 @@ congif.py
 
 __pycache__/
 
- .vscode/
+ .vscode/*.json
+
