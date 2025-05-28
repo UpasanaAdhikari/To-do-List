@@ -1,6 +1,6 @@
 
 import mysql.connector
-from congif import DB_CONFIG  # make sure this works
+from congif import DB_CONFIG  
 
 def get_connection():
     return mysql.connector.connect(**DB_CONFIG)
@@ -19,6 +19,6 @@ def init_db():
     conn.close()
     print("Table created.") 
 
-# Call this when you run db.py
+
 if __name__ == "__main__":
     init_db()
